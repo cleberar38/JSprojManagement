@@ -1,0 +1,27 @@
+Summary
+=======
+Check if you have node installed
+
+~ssh:$ npm -version
+
+Install gulp and bower globally use sudo if necessary
+
+~ssh:$ npm install gulp -g
+
+Login into your project directory
+
+~ssh:$ cd /path to your project/yourproject
+
+~ssh:$ gulp
+
+~ssh:$ gulp yourproject
+
+Gulp creates a .js file check and explore that file
+
+~ssh:$ pico gulp.js
+
+sudo npm install -g bower
+
+Bower creates a .json file check and explore that file
+
+~ssh:$ pico bower.json
