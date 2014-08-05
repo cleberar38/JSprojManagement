@@ -67,17 +67,24 @@ gulp.task('watch', function() {
 gulp.task('default', ['lint', 'sass', 'scripts', 'watch']);
 
 ===========================================================
+Now,
+Exceute/Run gulp
 
 ~ssh:$ gulp
 
-~ssh:$ gulp yourproject
+Now we are done with GULP!
 
-Gulp creates a .js file check and explore that file
+Check if you have bower installed 
 
-~ssh:$ pico gulp.js
+~ssh:$ bower -version
 
-sudo npm install -g bower
+If no version is display, install Bower with the following:
 
-Bower creates a .json file check and explore that file
+~ssh:$ sudo npm install -g bower
 
-~ssh:$ pico bower.json
+
+Then, go to your project directory and run the following:
+(It will create a bower.json file)
+
+~ssh:$ bower init
+
